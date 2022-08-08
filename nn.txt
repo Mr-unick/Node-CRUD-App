@@ -1,0 +1,5 @@
+app.get('/:username,password', async(req, res) => {
+    //declare model 
+    const Name = mongoose.model('Name', nameSchema)
+    const result = await (req.params)
+    console.log(result)

@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images/bg.jpg');
+    color: aliceblue;
+    text-decoration: none;
+}
+
+form {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    padding: 10px;
+    height: 350px;
+    width: 350px;
+}
+
+input {
+    margin: 10px;
+    width: 80%;
+    background-color: aliceblue;
+    border: 0px;
+    height: 20px;
+}
+
+body {
+    background-color: rgb(97, 93, 93);
+}
+
+#btn {
+    background-color: rgb(168, 164, 164);
+    color: rgb(14, 14, 15);
+    width: 20%;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0px;
+    height: 20px;
+}
+
+#btn:hover {
+    background-color: rgba(237, 237, 245, 0.534);
+    color: black;
+    font-weight: 500;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    list-style: none;
+}
+
+ul a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
